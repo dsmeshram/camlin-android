@@ -14,3 +14,20 @@ Gradle setp for android
      implementation project(":camlin")
   }
 ```
+
+initialize camlin at the application level
+
+```
+class App : Application(){
+    override fun onCreate() {
+        super.onCreate()
+        Camlin.init(this,"key")
+    }
+
+    override fun onTerminate() {
+        Camlin.destroy(this)
+        super.onTerminate()
+
+    }
+}
+```

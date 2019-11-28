@@ -2,9 +2,12 @@
 
 camlin provide the application overview.
 
-area covered
+Area covered
+
 Application session tracking
+
 Activity details traking
+
 FLow details
 
 Gradle setup for android

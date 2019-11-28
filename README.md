@@ -9,6 +9,9 @@ FLow details
 
 Gradle setp for android
 
+<CODE>
 dependencies{
+      
       implementation project(":camlin")
 }
+</CODE>

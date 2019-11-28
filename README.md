@@ -7,7 +7,7 @@ Application session tracking
 Activity details traking
 FLow details
 
-Gradle setp for android
+Gradle setup for android
 
 ```gradle
   dependencies{

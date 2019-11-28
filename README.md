@@ -9,7 +9,7 @@ FLow details
 
 Gradle setp for android
 
-```
+```gradle
   dependencies{
      implementation project(":camlin")
   }
@@ -17,7 +17,7 @@ Gradle setp for android
 
 initialize camlin at the application level
 
-```
+```kotlin
 class App : Application(){
     override fun onCreate() {
         super.onCreate()

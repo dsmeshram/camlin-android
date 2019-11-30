@@ -31,7 +31,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    implementation project(':camlin')
+    implementation 'com.github.dsmeshram:camlin-android:0.0.1'
 }
 repositories {
     mavenCentral()

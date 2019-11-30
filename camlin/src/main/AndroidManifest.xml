@@ -1,2 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.opensource.camlin" />
+    package="com.opensource.camlin" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application>
+        <provider
+            android:name=".provider.AppDetailsProvider" android:authorities="com.camlin.appanalysis.provider" />
+    </application>
+
+</manifest>

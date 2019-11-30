@@ -11,11 +11,25 @@ Activity details traking
 FLow details
 
 Gradle setup for android
-
+step1: Add it in your root build.gradle at the end of repositories:
 ```gradle
-  dependencies{
-     implementation project(":camlin")
-  }
+  
+ allprojects {
+	repositories 
+	{
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+step 2:Add the dependency
+
+```
+dependencies 
+{
+	implementation 'com.github.dsmeshram:camlin-android:0.0.1'
+}
 ```
 
 initialize camlin at the application level
